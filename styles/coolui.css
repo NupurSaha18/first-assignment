@@ -23,6 +23,13 @@
   font-weight: bold;
   border-radius: 10px;
   padding: 12px 36px 12px 36px;
+  cursor: pointer;
+}
+.btn-primary:hover{
+  background-color: orange;
+}
+.btn-primary-2:hover{
+  background-color: orange;
 }
 .bg{
   background-color: rgba(78, 71, 255, 0.01);
