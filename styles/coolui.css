@@ -15,7 +15,7 @@
 }
 
 /* shared style */
-.btn-primary{
+.btn-primary, .btn-primary-2{
   background-color: #4E47FF;
   border: none;
   color: #FFFFFF;
@@ -25,8 +25,9 @@
   padding: 12px 36px 12px 36px;
 }
 .bg{
-  background-color: #FFFFFF;
+  background-color: rgba(78, 71, 255, 0.01);
 }
+
 /* nav style  */
 nav{
   display: flex;
@@ -67,6 +68,7 @@ main{
   max-width: 1800px;
   margin: 0 auto;
   align-items: center;
+  background-color: rgba(78, 71, 255, 0.01);
 }
 .action{
   display: flex;
@@ -125,4 +127,54 @@ section img{
   font-size: 20px;
   font-weight: 400;
   text-align: center;
+}
+/* touch section */
+.touch{
+  display: flex;
+  justify-content: space-between;
+  margin: 93px 150px 14px 150px;
+  padding: 71px 0 71px 0;
+  /* gap: 233; */
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+}
+
+.touch-title{
+  font-size: 97px;
+  font-weight: bold;
+  height: 120%;
+  text-align: left;
+  
+}
+/* form */
+form label{
+  font-size: 18px;
+  font-weight: 600; 
+  vertical-align: 10px;
+}
+form input{
+  font-size: 20px;
+  vertical-align: 19px;
+  
+}
+form input[type="text"], form input[type="email"]{
+    height: 70px;
+    width: 497px;
+    border-radius: 10px;
+    padding: 20px 32px;
+    margin-bottom: 19px;
+    /* border: none; */
+    display: block;
+    border:1px solid #D6DDED;
+}
+form textarea{
+  width: 497px;
+  border-radius: 10px;
+  padding: 20px 32px;
+  border-color: #D6DDED;
+}
+.btn-primary-2{
+  width: 100%; 
+  padding: 19px 101px;
+  height: 62px;
 }
