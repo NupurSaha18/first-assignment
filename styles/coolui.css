@@ -135,6 +135,29 @@ section img{
   font-weight: 400;
   text-align: center;
 }
+/* focus section */
+.focus{
+  text-align: center;
+  background-color: #FFFFFF;
+  margin: 137px 150px 93px 150px;
+  padding: 71px 0 71px 0;
+}
+.focus-title{
+  font-size: 50px;
+  font-weight: 700;
+  margin: 0;
+}
+.focus-description{
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+}
+.focus-img{
+  margin-top: 20px;
+  border-radius: 48px;
+  width: 840px;
+  height: 365px;
+}
 /* touch section */
 .touch{
   display: flex;
